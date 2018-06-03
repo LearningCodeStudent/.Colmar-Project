@@ -1,0 +1,488 @@
+* {border: 0; margin: 0; padding: 0;}
+html{
+  font-family: helvetica;
+  font-size: 16px;
+  color: #171717;
+}
+p{
+  line-height: 1.4rem;
+}
+h2, h4{
+  color: black;
+  margin: 32px 0;
+  line-height: 1.5rem;
+}
+h2{
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+h4{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+h3{
+  font-size: 1.25rem;
+}
+
+/*Header*/
+.colmar{
+  font-weight: bold;
+  color: black;
+}
+header{
+  display: flex;
+  height: 64px;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.logo img{
+    height: 32px;
+}
+.banner {
+  display: flex;
+  padding: 0 24px 0 24px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-header ul{
+  display: flex;
+}
+.nav-header ul li{
+  padding: 0 16px;
+}
+.nav-header a{
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+}
+.nav-header a:hover,
+.nav-header a.active{
+  color: #639eff;
+  transition: color 250ms ease-out;
+}
+
+
+/*main container*/
+.main-container{
+  border-style: 5px solid #93A899;
+}
+
+
+/*first container*/
+.container.learn {
+  background-color: #E0E0E0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.support-container.learn{
+    width: 60%;
+    padding-top: 2rem;
+}
+.image-table{
+  padding: 32px 24px;
+}
+.image-table img{
+  max-width:100%;
+  max-height:100%;
+  width: 100%;
+  margin: 0;
+}
+.text-learn{
+  width: 21rem;
+  padding-left: 24px;
+}
+.button a{
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  background-color: #303030;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+}
+.button a:hover,
+.button a:active{
+  color: #4C4C4C;
+  transition: color 250ms ease-out;
+  background-color: #121212;
+}
+
+
+/*Practice Section*/
+.container.features{
+  background-color: #F5F5F5;
+}
+.first-container.features{
+  display: flex;
+  align-items: center;
+}
+.image-reading{
+  width: 60%;
+  padding: 32px 24px;
+  margin: 0;
+}
+.image-reading img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.text-body{
+  line-height: 1.75rem;
+  font-size: 1.3rem;
+}
+.inscription{
+  padding-top: 2rem;
+}
+.second-container.features {
+  display: block;
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+.box {
+  display: flex;
+  align-items: center;
+}
+.second-container.features .box{
+  border: 1px solid #93A899
+}
+.box img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 35%;
+  height: auto;
+  padding: 16px;
+
+}
+.lecture.box{
+  background-color: #E0E0E0;
+}
+.description{
+  width: 65%;
+  line-height: 1.5rem;
+  padding-right: 24px;
+}
+.description p{
+  padding: .5rem 0;
+}
+.description a{
+  color: grey;
+  text-decoration: none;
+}
+.description a:hover,
+.description a:active{
+  color: #639eff;
+  transition: color 250ms ease-out;
+}
+
+/*Learning Section*/
+.container.courses{
+  padding: 0 72px;
+  background-color: #E0E0E0;
+}
+.container.courses h2{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  margin: 0;
+}
+.support-container.courses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+.square{
+  padding: 16px;
+  width: 28%;
+  }
+.image-container img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.details{
+  background-color: white;
+  padding: 16px 16px 24px 16px;
+  height: 9.5rem;
+}
+.details h3, .details p{
+  margin: 8px 0;
+  background-color: white;
+}
+.details a{
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+  padding: 8px 0;
+}
+.details a:hover,
+.details a.active{
+    color: #639eff;
+    transition: color 250ms ease-out;
+}
+
+
+/*Thesis Section*/
+.container.thesis h2{
+  text-align: center;
+}
+.container.thesis{
+    background-color: #F5F5F5;
+    padding-top: 32px;
+}
+.first-container.thesis{
+  width: 60%;
+  padding:  0 24px 32px 24px;
+}
+.support-container.thesis{
+  display: flex;
+}
+.vid-container video{
+  width: 100%;
+}
+.first-container.thesis h3{
+  padding: 24px 0 8px 0;
+}
+.second-container.thesis {
+  width: 40%;
+}
+.box img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+.fisma.box{
+  background-color: #E0E0E0;
+}
+.description{
+  width: 65%;
+  line-height: 1.5rem;
+  padding-right: 24px;
+}
+.description p{
+  padding: .5rem 0;
+}
+
+
+/*Footer*/
+ footer {
+ display: flex;
+ justify-content: space-between;
+ border-top: 1px solid #93A899;
+ padding: 18px 24px 32px 24px;
+ color: grey
+ }
+ .nav-footer ul li{
+   display: inline-flex;
+   padding: 0 1rem;
+ }
+ .nav-footer a{
+   color: grey;
+   text-decoration: none;
+ }
+ .nav-footer a:hover,
+ .nav-footer a.active{
+     background-color: #639eff;
+     transition: color 250ms ease-out;
+ }
+
+ /* Media/Responsive*/
+ @media only screen and (min-width: 1024px){
+ body{
+   width: 100%;
+ }
+
+}
+ @media only screen and (max-width: 960px){
+ body{
+   width: 960px;
+ }
+
+}
+ @media only screen and (min-width: 465px){
+ .mobile-nav{
+   display: none;
+ }
+ .mobile-course{
+   display: none;
+ }
+}
+ @media only screen and (max-width: 465px){
+   * {border: 0; margin: 0; padding: 0;}
+   body{
+     width: 100%;
+   }
+
+  /*header*/
+   header{
+   width: 100%;
+   height: 64px;
+   padding: 0 16px;
+ }
+  .nav-header{
+    display: none;
+ }
+ .mobile-nav{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   align-items: center;
+ }
+ .mobile-nav a:hover,
+ .mobile-nav a:active{
+   background-color: #E0E0E0;
+   transition: color 250ms ease-out;
+ }
+  .logo{
+    display: none;
+  }
+
+   /*Learning Section*/
+  .container.learn{
+    display: flex;
+    flex-direction: column;
+  }
+  .support-container.learn{
+    width: 100%;
+  }
+  .first-container.learn{
+    width: 100%;
+    padding:0;
+    margin: 0;
+  }
+  .image-table{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .image-table img{
+    max-width: 100%;
+    max-height:100%;
+  }
+  .text-learn{
+    margin: 0 16px;
+    padding: 0;
+    width: 80%;
+  }
+    h4{
+     font-size: 1.5rem;
+   }
+   .button{
+     padding-bottom: 32px;
+   }
+
+   /*Practice Section*/
+   .image-reading{
+     display: none;
+   }
+   .second-container.features{
+     width:100%;
+     padding: 16px 16px 0 16px;
+     background-color: white;
+   }
+    .first-container.features{
+      border-bottom: 1px solid #E0E0E0;
+    }
+   .second-container.features .box{
+     border: none;
+   }
+   .box{
+     display: flex;
+     flex-direction: column;
+   }
+   .box img{
+     max-width: 100%;
+     max-height: 100%;
+     width: 100%;
+     height: 250px;
+     object-fit: cover;
+     object-position: center;
+     flex-shrink: inherit;
+     margin:0;
+     padding:0;
+   }
+   .description{
+     width: 80%;
+     margin: 32px 32px;
+   }
+   .description h3{
+     font-size: 1.5rem;
+   }
+   .lecture.box{
+     background-color: white;
+   }
+
+   /*Course Section*/
+   .square{
+     display: none;
+   }
+   .container.courses{
+     padding: 16px;
+     margin: 0;
+     background-color: white;
+
+   }
+   .support-container.courses{
+     margin: 0;
+     padding:0;
+   }
+   .mobile-course{
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+   .mobile-course h3{
+     font-size: 1.5rem;
+     background-color: #E0E0E0;
+     padding: 16px 16px 24px 16px;
+     margin: 8px 0;
+     text-align: left;
+   }
+   .mobile-course a{
+     text-decoration: none;
+     color: #171717;
+   }
+   .mobile-course a:hover,
+   .mobile-course a:active{
+     color: white;
+     transition: color 250ms ease-out;
+   }
+
+   /*Thesis Section*/
+   .support-container.thesis h3, .support-container.thesis p, .second-container.thesis {
+     display: none;
+   }
+   .support-container.thesis{
+     width: 100%;
+   }
+   .first-container.thesis{
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+   .first-container.thesis .vid-container{
+     padding-bottom: 24px;
+   }
+   video{
+     max-width: 100%;
+     max-height: 100%;
+     width: 100%;
+     height: auto;
+   }
+
+   /*Footer*/
+   footer .nav-footer{
+     display: none;
+   }
+}
